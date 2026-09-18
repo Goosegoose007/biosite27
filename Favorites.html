@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Austin Miersch</title>
+  <link rel="stylesheet" href="Style.css">
+  <style>
+    
+    #custom-cursor {
+  width: 30px;
+  height: 30px;
+  background-color: transparent; 
+  border: 2px solid #498DBF;     
+  border-radius: 50%;            
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease-out;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+    
+    
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <div id="custom-cursor"></div>
+
+  <div id="header">
+    
+      <h1>Austin Miersch</h1>
+    </div>
+  
+
+  <div id="nav">
+ <a href="Index.html">Home</a> - <a href="Favorites.html">Favorites</a> - <a href="Contact.html">Contact</a></div>
+
+  <div id="content" class="clearfix">
+    <h1>Favorites</h1>
+    <h2>Austin Miersch</h2>
+    
+    <h3>My Favorite hobbies</h3>
+    <p>Some of my favorite hobbies are <b>Baseball, Baseball cards collecting, and building model cars</b>. I've played baseball since I was 3 and I've loved it since then. I play outfield and I pitch, but most likely will start to <i>only pitch soon</i>. I've recently started collecting baseball cards again because I found out I have some <i>rare cards</i> and I'm getting back into the hobby. My grandpa had a ton of model cars and now I'm building them; it's pretty calming though.</p>
+    <img src="https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/2E3GQDMOV4MMZ6XYKNEQQN7C6E.jpg?auth=40d6f3044085b734849e2edb7cf10dc6b9d594f8de278c143573a5f6bfeb2122&width=1440" alt="cody" width="750">
+
+    <h3>My future/career</h3>
+    <p>For my future I want to try to play <u>D1 baseball at my dream college UCLA and maybe the MLB</u>. In college I want to study <u>engineering</u>. Not sure which one so far, but I'm thinking mechanical engineering or design, but I want some sort of engineering. Another plan is to go <b>into the Navy as an officer or a Pilot to follow my family</b>.</p>
+    <img src="https://images.sidearmdev.com/crop?url=https%3a%2f%2fdxbhsrqyrr690.cloudfront.net%2fsidearm.nextgen.sites%2fuclaclub.sidearmsports.com%2fimages%2f2024%2f4%2f5%2fIMG_5837.jpg&height=797&width=1416&type=webp&gravity=smart" alt="UCLA" width="1000" height="600">
+    
+    <h3>Where I want to visit</h3>
+    <p>Somewhere I really want to go is Hawaii because I like how tropical it looks, and I love the beach and how nice it seems there, so that's probably something I want to definitely do in the future. Something I would want to do there is swim with a sea turtle or go ride dirt bikes on the trails because the trails are really nice with the views in Hawaii.</p>
+    <img src="https://res.cloudinary.com/enchanting/q_70,f_auto,c_fill,g_face/hj-web/2022/08/hawaii-oahu-island.png" alt="Hawaii" width="1000" height="700">
+    
+    <div style="margin-top: 20px;">
+      <img src="Miersch Family.jpeg" style="float: left; margin-right: 30px; margin-bottom: 20px; max-width: 300px;" alt="Family">
+      <h3>My favorite foods are:</h3>
+      <ul>
+        <li>Steak and potatoes</li>
+        <li>California Burrito</li>
+        <li>Sushi (crunchy tempura shrimp roll)</li>
+      </ul>
+    </div>
+  </div>
+<div class="Airpod">
+  <p>About Me </p>
+  <p></p>
+</div>
+  <div class="Airpod">
+    <p>My favorite Website</p>
+    <p></p>
+  </div>
+<div class="Airpod">
+  <p>Contact Me </p>
+  <p></p>
+</div>
+<div style="clear: both;"></div>
+	<div id="footer">
+  Copyright &copy; 2026 Austin Miersch
+	
+  </div>
+
+  
+  <script>
+    const cursor = document.getElementById('custom-cursor');
+    document.addEventListener('mousemove', (e) => {
+      cursor.style.left = e.clientX + 'px';
+      cursor.style.top = e.clientY + 'px';
+    });
+  </script>
+
+</body>
+</html>

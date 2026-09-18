@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Austin Miersch</title>
+  <link rel="stylesheet" href="Style.css">
+  <style>
+    
+    #custom-cursor {
+  width: 30px;
+  height: 30px;
+  background-color: transparent; 
+  border: 2px solid #CDD5DB;     
+  border-radius: 50%;            
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease-out;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+    
+    
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+<body>
+	
+<div id="header"> 
+<div style="">
+	<h1>Austin Mierschs</h1>
+	<h2>Autobiographical site</h2>
+  </div>
+</div>
+<div id="nav">
+ <a href="Index.html">Home</a> - <a href="Favorites.html">Favorites</a> - <a href="Contact.html">Contact</a></div>
+
+  <div id="content" class="clearfix">
+    <h1>Home page</h1>
+	  <div class="Airpod">
+        <p>About Me </p>
+        <p>Write Here:&nbsp;</p>
+<p></p>
+</div>
+  <div class="Airpod">
+    <p> My favorite Website </p>
+    <p>Write Here:&nbsp;&nbsp;</p>
+<p></p>
+  </div>
+<div class="Airpod">
+  <p>Contact Me </p>
+  <p>Write here&nbsp;</p>
+<p></p>
+</div>
+<div style="clear: both;"></div>
+    <h2>Austin Miersch</h2>
+    
+    <p>I’m Austin Miersch, a creative student at El Camino High School in Oceanside. I’m passionate about graphic design and web design, where I enjoy creating custom, stunning, and impactful designs. I focus on innovation, reliability, and excellence while bringing Diverse ideas into my work. Check out my Porfolio to see some of my creative projects and designs.</p>
+    
+      
+</div>
+  
+
+	<div id="footer">
+  Copyright &copy; 2026 Austin Miersch
+	
+  </div>
+
+  
+<script>
+    const cursor = document.getElementById('custom-cursor');
+    document.addEventListener('mousemove', (e) => {
+      cursor.style.left = e.clientX + 'px';
+      cursor.style.top = e.clientY + 'px';
+    });
+  </script>
+
+
+</body>
+</html>
